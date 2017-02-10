@@ -1,0 +1,33 @@
+{
+  "name": "web-test",
+  "version": "1.0.0",
+  "description": "react, webpack, es6, redux, material-ui ============",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --color --config ./webpack.config.dev.js", 
+    "build": "webpack --progress --colors --config ./webpack.config.dev.js",
+    "build:prod": "webpack --config ./webpack.config.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/material-ui": "^0.16.50",
+    "@types/react": "^15.0.8",
+    "@types/react-dom": "^0.14.23",
+    "@types/react-redux": "^4.4.36",
+    "@types/react-tap-event-plugin": "0.0.30",
+    "@types/redux": "^3.6.0",
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.6",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0"
+  }
+}
